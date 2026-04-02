@@ -32,9 +32,9 @@ A complete lexical analysis pipeline built in Python, applied to a fragment of A
 
 **Link nbviewer** (visualización estática, inmediata):
 ```
-https://nbviewer.org/github/TU_USUARIO/nlp-lyrics-analysis/blob/main/adele_nlp_analysis.ipynb
+https://nbviewer.org/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis.ipynb
 ```
 
 **Link Google Colab** (ejecutable, interactivo):
 ```
-https://colab.research.google.com/github/TU_USUARIO/nlp-lyrics-analysis/blob/main/adele_nlp_analysis.ipynb
+https://colab.research.google.com/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis.ipynb
