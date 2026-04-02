@@ -6,35 +6,37 @@ A complete lexical analysis pipeline built in Python, applied to a fragment of A
 
 ## Sections covered
 1. Text Description
-2. Lexicons (15-entry table)
+2. Lexicons (15-entry table with category distribution chart)
 3. Phonemes, Graphemes & Morphemes
-4. Tokenization (sentence, word, character-level)
-5. Rule-Based Tokenizers (regex)
-6. Word Normalization (stemming & lemmatization)
+4. Tokenization (sentence, word, character-level) + frequency charts & word clouds
+5. Rule-Based Tokenizers (regex patterns)
+6. Word Normalization (stemming & lemmatization) + vocabulary reduction chart
+6b. N-gram Analysis (unigrams, bigrams, trigrams) + frequency charts & word clouds
 7. Summary
 
 ## Libraries used
-`nltk` · `pandas` · `matplotlib`
+`nltk` · `pandas` · `matplotlib` · `wordcloud`
 
 ## How to run
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis_v2.ipynb)
 
-[![Open in nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis.ipynb)
+[![Open in nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis_v2.ipynb)
 ```
-4. En **"Commit changes"**:
-   - **Title:** `Add professional README with badges`
-   - **Description:** `Includes Open in Colab and nbviewer badges`
-5. Click en **"Commit changes"**
+
+3. En **"Commit changes"**:
+   - **Title:** `Update README for v2 with new sections and badges`
+   - **Description:** `Updated links to v2 notebook, added n-gram and visualization sections`
+4. Click en **"Commit changes"**
 
 ---
 
-## Paso 4 — Obtén tus links
+## Paso 4 — Tus links listos para compartir
 
-**Link nbviewer** (visualización estática, inmediata):
+**Google Colab** (ejecutable):
 ```
-https://nbviewer.org/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis.ipynb
+https://colab.research.google.com/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis_v2.ipynb
 ```
 
-**Link Google Colab** (ejecutable, interactivo):
+**nbviewer** (visualización estática):
 ```
-https://colab.research.google.com/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis.ipynb
+https://nbviewer.org/github/eliandmo/nlp-lyrics-analysis/blob/main/adele_nlp_analysis_v2.ipynb
